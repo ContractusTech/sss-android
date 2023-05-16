@@ -1,17 +1,18 @@
 package com.dsprenkels.sss.android.jni.test;
 
-import android.support.test.runner.AndroidJUnit4;
 
 import com.dsprenkels.sss.android.jni.ShamirSecretSharing;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 @RunWith(AndroidJUnit4.class)
 public class ShamirSecretSharingTest {

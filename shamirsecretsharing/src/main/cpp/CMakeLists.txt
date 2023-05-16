@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.4.1)
+project (sss-jni)
 
 add_library(sss-jni SHARED
             sss-jni.c

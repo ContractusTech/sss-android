@@ -1,16 +1,17 @@
 buildscript {
     repositories {
-        jcenter()
+        google()
+        gradlePluginPortal()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-
+        classpath 'com.android.tools.build:gradle:7.4.2'
     }
 }
 
 allprojects {
     repositories {
-        jcenter()
+        google()
+        gradlePluginPortal()
     }
 }
 
